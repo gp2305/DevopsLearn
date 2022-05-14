@@ -57,7 +57,7 @@ namespace DevopsLearn.Test
 
             Assert.Equal(2, model.Count);
             Assert.Equal(101, model[0].PostId);
-           // Assert.Equal(102, model[1].PostId);
+            Assert.Equal(102, model[1].PostId);
         }
     }
 }
